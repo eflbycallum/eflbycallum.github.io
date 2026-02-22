@@ -1,6 +1,38 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
+  background-color: #f5e6e0; 
+  color: #222;  
+}
+
+h1, h2, h3 {
+    color: #6b0f1a;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;        /* length of trim */
+    height: 4px;        /* thickness */
+    background-color: #f2c94c;
+}
+
+nav a {
+    color: #6b0f1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f2c94c;
 }
 
 .layout {
@@ -11,11 +43,14 @@ body {
 .sidebar {
   width: 250px;
   background: #111;
-  color: white;
+  color: #FFCE1B;
   padding: 1rem;
   overflow-y: auto;   /* 👈 scroll when menu is long */
 }
-
+header {
+    border-bottom: 3px solid #f2c94c;
+    padding: 20px 40px;
+}
 .sidebar a {
   color: #ddd;
   text-decoration: none;
