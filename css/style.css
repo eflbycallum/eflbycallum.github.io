@@ -32,3 +32,11 @@ body {
   padding: 2rem;
   overflow-y: auto;
 }
+.dropcap {
+    float: left;
+    font-size: 4.2em;      /* size of the letter */
+    line-height: 0.8;      /* pulls text up tighter */
+    margin-right: 10px;    /* space between letter and word */
+    margin-top: 4px;       /* nudges it down slightly */
+    font-weight: 700;
+}
