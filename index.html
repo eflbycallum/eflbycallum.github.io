@@ -2,93 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Site</title>
+  <title>EFL by Callum</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<nav class="sidebar">
-  <h2>Latest Articles</h2>
+<div class="page-overlay">
 
-  <ul>
-    <li>
-      <a href="articles/article1.html">
-        How entertaining are Wrexham?
-      </a>
-      <small>(22/02/26)</small>
-    </li>
+  <div class="layout">
 
-    <li>
-      <a href="articles/article2.html">
-        Ramsey's Juventus Now
-      </a>
-    </li>
+    <nav class="sidebar">
+      <h2>Articles</h2>
+      <ul>
+        <li>
+          <a href="articles/article1.html">
+            How entertaining are Wrexham?
+          </a>
+          <small>(22/02/26)</small>
+        </li>
 
-    <li>
-      <a href="articles/article3.html">
-        To be Released
-      </a>
-    </li>
-  </ul>
-</nav>
+        <li>
+          <a href="articles/article2.html">
+            Ramsey's Juventus Now
+          </a>
+        </li>
 
-<main class="content">
+        <li>
+          <a href="articles/article3.html">
+            To be Released
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-  <section
-    style="
-      position: relative;
-      height: 75vh;
-      border-radius: 20px;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      padding: 4rem;
-      color: white;
-      background:
-        linear-gradient(
-          rgba(0,0,0,0.55),
-          rgba(0,0,0,0.65)
-        ),
-        url('footballbg.jpg');
-      background-size: cover;
-      background-position: center;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
-    "
-  >
+    <main class="content">
 
-    <div style="max-width: 600px;">
-      <h1 style="
-        color:white;
-        font-size:4rem;
-        margin-bottom:0.5rem;
-      ">
-        EFL by Callum
-      </h1>
+      <section class="hero-card">
 
-      <p style="
-        font-size:1.3rem;
-        line-height:1.6;
-        margin-bottom:2rem;
-      ">
-        Stories, statistics and deep dives into the English Football League.
-      </p>
+        <div class="hero-text">
+          <h1>EFL by Callum</h1>
 
-      <a href="articles/article2.html"
-         style="
-           display:inline-block;
-           background:#FFCE1B;
-           color:#111;
-           padding:14px 28px;
-           border-radius:30px;
-           text-decoration:none;
-           font-weight:bold;
-           font-size:1.1rem;
-         ">
-        Read Latest Article →
-      </a>
-    </div>
+          <p>
+            Stories, statistics and deep dives into
+            English football.
+          </p>
 
-  </section>
+          <a class="hero-button"
+             href="articles/article2.html">
+             Read Latest Article →
+          </a>
+        </div>
 
-</main>
+      </section>
 
+    </main>
+
+  </div>
+
+</div>
+
+</body>
+</html>
