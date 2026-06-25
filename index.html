@@ -7,22 +7,88 @@
 </head>
 <body>
 
-  <div class="layout">
-    <nav class="sidebar">
-      <h2>Articles</h2>
-      <ul>
-        <li><a href="articles/article1.html">How entertaining are Wrexham?</a> (22/02/26) </li>
-        <li><a href="articles/article2.html">Ramsey's Juventus Now</a></li>
-        <li><a href="articles/article3.html">To be Released</a></li>
-      </ul>
-    </nav>
+<nav class="sidebar">
+  <h2>Latest Articles</h2>
 
-    <main class="content">
-      <h1>EFL by Callum</h1>
-      <p>Hi! Welcome to EFL by Callum.</p>
-    </main>
-  </div>
+  <ul>
+    <li>
+      <a href="articles/article1.html">
+        How entertaining are Wrexham?
+      </a>
+      <small>(22/02/26)</small>
+    </li>
 
-</body>
-</html>
+    <li>
+      <a href="articles/article2.html">
+        Ramsey's Juventus Now
+      </a>
+    </li>
+
+    <li>
+      <a href="articles/article3.html">
+        To be Released
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<main class="content">
+
+  <section
+    style="
+      position: relative;
+      height: 75vh;
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      padding: 4rem;
+      color: white;
+      background:
+        linear-gradient(
+          rgba(0,0,0,0.55),
+          rgba(0,0,0,0.65)
+        ),
+        url('images/footballbg.jpg');
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    "
+  >
+
+    <div style="max-width: 600px;">
+      <h1 style="
+        color:white;
+        font-size:4rem;
+        margin-bottom:0.5rem;
+      ">
+        EFL by Callum
+      </h1>
+
+      <p style="
+        font-size:1.3rem;
+        line-height:1.6;
+        margin-bottom:2rem;
+      ">
+        Stories, statistics and deep dives into the English Football League.
+      </p>
+
+      <a href="articles/article1.html"
+         style="
+           display:inline-block;
+           background:#FFCE1B;
+           color:#111;
+           padding:14px 28px;
+           border-radius:30px;
+           text-decoration:none;
+           font-weight:bold;
+           font-size:1.1rem;
+         ">
+        Read Latest Article →
+      </a>
+    </div>
+
+  </section>
+
+</main>
 
