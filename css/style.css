@@ -103,7 +103,7 @@ nav a:hover {
 .sidebar {
   width: 250px;
   background: #001a25;
-  color: #001a25;
+  color: black;
   padding: 1rem;
   overflow-y: auto;   /*scroll when menu is long */
 }
