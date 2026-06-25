@@ -138,3 +138,7 @@ header {
     margin-top: 4px;       /* nudges it down slightly */
     font-weight: 700;
 }
+
+p{
+    color: white;
+}
