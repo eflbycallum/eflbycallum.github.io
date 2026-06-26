@@ -107,7 +107,9 @@ nav a:hover {
   background: #001a25;
   color: #FFCE1B;
   padding: 1rem;
+  border-right: 1px solid rgba(255,255,255,0.35);
   overflow-y: auto;   /*scroll when menu is long */
+    
 }
 header {
     border-bottom: 3px solid #f2c94c;
