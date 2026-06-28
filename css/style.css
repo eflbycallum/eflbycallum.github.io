@@ -65,6 +65,8 @@ body {
 
 .hero-button:hover {
     background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.4);
 }
 
 h1, h2, h3 {
