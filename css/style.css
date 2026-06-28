@@ -145,3 +145,35 @@ header {
 p {
     color: white;
 }
+
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    background: #FFCE1B;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
+
+    padding: 12px 20px;
+    border-radius: 30px;
+
+    border: 1px solid rgba(255,255,255,0.35);
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+
+    z-index: 1000;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.home-button:hover {
+    background: #ffd84d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+}
