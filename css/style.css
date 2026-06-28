@@ -173,7 +173,7 @@ p {
 }
 
 .home-button:hover {
-    background: #ffd84d;
+    background: #fce7ac;
     transform: translateY(-2px);
     box-shadow: 0 6px 24px rgba(0,0,0,0.4);
 }
