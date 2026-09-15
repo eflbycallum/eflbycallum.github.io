@@ -179,3 +179,69 @@ p {
     transform: translateY(-2px);
     box-shadow: 0 6px 24px rgba(0,0,0,0.4);
 }
+
+
+/* Responsive player table */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 20px 0;
+}
+
+.player-table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 100%;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.player-table th,
+.player-table td {
+  border: 1px solid #ddd;
+  padding: 7px 9px;
+  text-align: left;
+}
+
+.player-table th {
+  font-weight: bold;
+  background: #6b0f1a;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.player-table tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+.player-table tbody tr:hover {
+  background: #f0e6e2;
+}
+
+/* Keep player names readable */
+.player-table th:nth-child(2),
+.player-table th:nth-child(3),
+.player-table td:nth-child(2),
+.player-table td:nth-child(3) {
+  text-align: left;
+}
+
+/* Centre numeric columns */
+.player-table th:nth-child(n+4),
+.player-table td:nth-child(n+4) {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .player-table {
+    font-size: 12px;
+  }
+
+  .player-table th,
+  .player-table td {
+    padding: 6px 7px;
+  }
+}
