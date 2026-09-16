@@ -189,6 +189,20 @@ p {
   margin: 20px 0;
 }
 
+/* Separate horizontal scrollbar above the table */
+.table-scroll-top {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 5px;
+}
+
+/* This creates the scrollbar's required width */
+.table-scroll-top > div {
+  height: 1px;
+  width: max-content;
+}
+
 .player-table {
   border-collapse: collapse;
   width: max-content;
