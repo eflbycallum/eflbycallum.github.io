@@ -80,6 +80,11 @@
 <p>Dembélé is unfortunate here, as Oxford have only played five games this season, but the readjustment caused him to fall to a still highly impressive 3rd. Above him now are Blackpool’s Josh Bowler, and Notts County’s Ollie Cooper. Bowler is notable for very strong performance in both carrying ability and chance involvement; an exceptional attacking midfielder, who has had 2.37 xG already this season. Cooper is the standout all-rounder midfielder in the division, the only player to record over 0.5 in all three categories. Another especially notable player is Bromley’s Kamil Conteh, whose incredible ball winning numbers drag him to fifth in the rankings.</p>
 
 <p>My full table is detailed below.</p>
+
+<div class="table-scroll-top">
+  <div></div>
+</div>
+    
 <div class="table-container">
   <table class="player-table">
     <thead>
@@ -2706,6 +2711,19 @@
     </tbody>
   </table>
 </div>
+
+<script>
+const topScroll = document.querySelector('.table-scroll-top');
+const tableScroll = document.querySelector('.table-container');
+
+topScroll.addEventListener('scroll', () => {
+  tableScroll.scrollLeft = topScroll.scrollLeft;
+});
+
+tableScroll.addEventListener('scroll', () => {
+  topScroll.scrollLeft = tableScroll.scrollLeft;
+});
+</script>
 
     <nav>
           
